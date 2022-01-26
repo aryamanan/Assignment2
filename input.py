@@ -1,5 +1,5 @@
 def Ques1():
-    input_string=input("Enter the string:(Leave blank for default) ") or "Python is a case sensitive language"  
+    input_string=input("Enter the string: ")
     #Finds the length of the input string.
     print("Part A")
     print("Length os input string",len(input_string))
@@ -25,7 +25,8 @@ def Ques1():
     #Remove the white spaces from the given input string
     print("Part F")
     print(input_string.replace(" ",""))
-
+    
+Ques1()
 
 def Ques2():
     #takes inputs from the user
@@ -41,6 +42,7 @@ def Ques2():
              My SID is %s
              I am from %s department and my CGPA is %s'''%(name,sid,dep,cgpa))
 
+Ques2()
 
 def Ques3():
     #declaring values
@@ -65,6 +67,7 @@ def Ques3():
     print("Part E")
     print("a>>2:",a>>2, "and b>>4",b>>4)
 
+Ques3()
 
 def Ques4():
    #finds the greatest of three numbers entered by user
@@ -76,6 +79,7 @@ def Ques4():
     l.sort(reverse=True)
     print("The greatest value is:",l[0])
 
+Ques4()
 
 def Ques5():
     #takes user input
@@ -87,6 +91,7 @@ def Ques5():
     else:
         print("no")    
 
+Ques5()
 
 def Ques6():
     #takes in user input value in form of array
@@ -96,3 +101,4 @@ def Ques6():
         side=float(input("Enter side %s: "%(i+1)))
         sides.append(side)
     
+Ques6()
