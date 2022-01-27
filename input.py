@@ -2,7 +2,7 @@ def Ques1():
     input_string=input("Enter the string: ")
     #Finds the length of the input string.
     print("Part A")
-    print("Length os input string",len(input_string))
+    print("Length of input string",len(input_string))
     
     #Reverses the order of the string in one line code.
     print("Part B")
