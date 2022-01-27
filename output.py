@@ -1,7 +1,7 @@
 Ques1:
 Enter the string: computer assignment 2
 Part A
-Length os input string 21
+Length of input string 21
 Part B
 Reverse of string is '2 tnemngissa retupmoc'
 Part C
